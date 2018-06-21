@@ -10,6 +10,13 @@ Basically something like this
 Since it is highly probable that you are both the sender and receiver, these latter are
 pre-defined in a config file (see below).
 
+**Important note** Remember that only stdout is captured when using pipes. You may want
+to redirect stderr to stdout to also catch errors. For example
+``` bash
+./my_command_printing_errors 2>&1 | p3mail "My mail's subject"
+```
+Note: the order of stdout and stderr outputs is not preserved :( See: https://hisham.hm/2016/11/24/fun-hack-to-redirect-stdout-and-stderr-in-order/
+
 ## Usage
 
 ### Using `config` file
