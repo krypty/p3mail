@@ -1,0 +1,7 @@
+[DEFAULT]
+From = <someone@somemail.com>
+To = <someone@somemail.com>
+SmtpServer = <smtp_server>
+SmtpPort = <smtp_port_more_likely_587>
+SmtpUser = <smtp_user>
+SmtpPass = <your_password>
