@@ -86,3 +86,8 @@ export SMTP_PASS=super_secr3t_passw0rd
 
 ./my_verbose_script | p3mail "Verbose script report"
 ```
+
+# TODO
+
+* Add Gmail oauth support
+
