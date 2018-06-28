@@ -14,15 +14,16 @@ def read(fname):
 
 setup(
     name=consts.prg_name,
-    version="0.0.1",
+    version="0.1.1",
     author="Gary Marigliano",
-    author_email="gary[@]marigliano[.]ch",
+    author_email="gary-pypi@marigliano.ch",
     description=(consts.full_prg_name),
     keywords="mail pipe stdin",
     url="https://github.com/krypty/p3mail",
     packages=find_packages(),
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
+    python_requires='>=3.5',
     entry_points={
         'console_scripts': [
             'p3mail=p3mail.p3mail:main'
