@@ -17,6 +17,12 @@ to redirect stderr to stdout to also catch errors. For example
 ```
 Note: the order of stdout and stderr outputs is not preserved :( See: https://hisham.hm/2016/11/24/fun-hack-to-redirect-stdout-and-stderr-in-order/
 
+## Install
+
+```
+pip install p3mail
+```
+
 ## Usage
 
 ### Using `config` file
